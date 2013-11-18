@@ -1496,6 +1496,24 @@
 				MX6QDL_PAD_KEY_ROW0__UART4_RX_DATA 0x1b0b1
 			>;
 		};
+
+		pinctrl_uart4_2: uart4grp-2 {
+			fsl,pins = <
+				MX6QDL_PAD_KEY_COL0__UART4_TX_DATA 0x1b0b1
+				MX6QDL_PAD_KEY_ROW0__UART4_RX_DATA 0x1b0b1
+				MX6QDL_PAD_CSI0_DAT16__UART4_CTS_B 0x1b0b1
+				MX6QDL_PAD_CSI0_DAT17__UART4_RTS_B 0x1b0b1
+			>;
+		};
+
+		pinctrl_uart4_3: uart4grp-3 {
+			fsl,pins = <
+				MX6QDL_PAD_CSI0_DAT12__UART4_TX_DATA 0x1b0b1
+				MX6QDL_PAD_CSI0_DAT13__UART4_RX_DATA 0x1b0b1
+				MX6QDL_PAD_CSI0_DAT16__UART4_CTS_B 0x1b0b1
+				MX6QDL_PAD_CSI0_DAT17__UART4_RTS_B 0x1b0b1
+			>;
+		};
 	};
 
 	usbotg {
